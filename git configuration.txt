@@ -1,0 +1,11 @@
+git config --global user.name "MuhammadBilalQamar"
+git config --global user.email "MuhammadBilalQamar"
+git config --list
+
+
+git init
+git status
+git add .
+git commit -m ""
+git remote add origin "url"
+git push origin master
