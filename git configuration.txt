@@ -9,3 +9,8 @@ git add .
 git commit -m ""
 git remote add origin "url"
 git push origin master
+
+---> if an error occured then use-->
+
+git pull --rebase origin master
+git push origin master
