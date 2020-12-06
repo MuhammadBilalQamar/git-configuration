@@ -1,0 +1,18 @@
+for mail sending from heruko server enable this :
+
+https://accounts.google.com/DisplayUnlockCaptcha  
+
+https://www.google.com/settings/security/lesssecureapps
+
+deploy commands:
+
+heroku login
+git remote -v
+git remote rm heroku  //remove remote
+git init
+git add .
+git commit -m ""
+
+heroku create App_Name
+git push heroku master
+
